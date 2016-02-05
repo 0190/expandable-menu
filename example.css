@@ -1,0 +1,46 @@
+body {
+  width: 200px;
+  padding: 20px;
+}
+.clickable {
+  cursor: pointer;
+}
+.menu {
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px solid grey;
+  padding: 0 5px 0 5px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.menu .menu-left {
+  float: left;
+}
+.menu .menu-right {
+  float: right;
+}
+.menu .menu-right img {
+  width: 10px;
+  height: 10px;
+}
+.menu .content-wrapper {
+  width: 150px;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+.menu .content-wrapper.hide {
+  opacity: 0;
+}
+.menu .content-wrapper.show {
+  opacity: 1;
+}
+.menu .content-wrapper .content {
+  transition: all 0.5s ease;
+}
+.menu .content-wrapper .content.hide {
+  margin-top: -100%;
+}
+.menu .content-wrapper .content.show {
+  margin-top: 0;
+}
