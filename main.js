@@ -1,3 +1,3 @@
 /*globals angular */
 
-var app = angular.module('app', []);
+var app = angular.module('expendable-menu', []);

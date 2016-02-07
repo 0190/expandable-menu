@@ -1,6 +1,6 @@
 /*globals angular */
 
-angular.module('app').directive('expandableMenu', function () {
+angular.module('expendable-menu').directive('expandableMenu', function () {
   'use strict';
 
   return {
